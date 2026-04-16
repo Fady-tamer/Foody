@@ -1,0 +1,115 @@
+:root {
+    --main-color: #35b8be;
+    --light-main-color: #f5fbfc;
+    --heading: #191b22;
+    --Paragraph: #546285;
+}
+
+.hero .hero-content {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.hero .hero-content .content-card h1 {
+    font-size: 60px;
+}
+
+.hero .hero-content .content-card h1 span {
+    color: var(--main-color);
+}
+
+.hero .hero-content .content-card p {
+    font-size: 18px;
+}
+
+.hero .hero-content .content-card a,
+.about-us-content a {
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.about-us .about-us-content {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.about-us .about-us-content .content-card h2 {
+    font-size: 55px;
+    color: var(--main-color) !important;
+}
+
+.menu .menu-container {
+    max-width: 1320px;
+}
+
+.menu .menu-container .menu-header h2 {
+    font-size: 55px;
+    color: var(--main-color) !important;
+}
+
+.menu .menu-container .menu-header .menu-sections button {
+    width: calc((100% - 90px)/3);
+    border: 0.25px solid var(--main-color);
+    background-color: transparent;
+}
+
+.menu .menu-container .menu-items .menu-item {
+    /* width: calc((50% - 20px)); */
+    background-color: #fff;
+}
+
+.menu .menu-container .menu-items .menu-item img {
+    width: 140px;
+    height: 140px;
+}
+
+.menu .menu-container .menu-items .menu-item .menu-item-content .menu-item-content-header h2 {
+    font-size: 20px;
+}
+
+.menu .menu-container .menu-items .menu-item .menu-item-content .menu-item-content-header p {
+    color: var(--main-color) !important;
+}
+
+.menu .menu-container .menu-items .menu-item form input {
+    width: 50px;
+    background-color: #7272722b;
+}
+
+.menu .menu-container .menu-items .menu-item form button {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.menu .menu-container .menu-footer a {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+@media (max-width: 575px) {
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .content-card {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about-us-content {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .menu-item-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

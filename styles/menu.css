@@ -1,0 +1,68 @@
+:root {
+    --main-color: #35b8be;
+    --light-main-color: #f5fbfc;
+    --heading: #191b22;
+    --Paragraph: #546285;
+}
+
+.hero {
+    min-height: 420px;
+    background: url(https://uploads-ssl.webflow.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum.png);
+    background-color: var(--light-main-color);
+}
+
+.hero .hero-content {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.hero .hero-content h1 {
+    max-width: 700px;
+    font-size: 60px;
+}
+
+.hero .hero-content h1 span {
+    color: var(--main-color) !important;
+}
+
+.menu .menu-container {
+    max-width: 1320px;
+}
+
+.menu .menu-container .menu-header h2 {
+    font-size: 55px;
+    color: var(--main-color) !important;
+}
+
+.menu .menu-container .menu-header .menu-sections button {
+    width: calc((100% - 90px)/3);
+    border: 0.25px solid var(--main-color);
+    background-color: transparent;
+}
+
+.menu .menu-container .menu-items .menu-item {
+    background-color: #fff;
+}
+
+.menu .menu-container .menu-items .menu-item img {
+    width: 140px;
+    height: 140px;
+}
+
+.menu .menu-container .menu-items .menu-item .menu-item-content .menu-item-content-header h2 {
+    font-size: 20px;
+}
+
+.menu .menu-container .menu-items .menu-item .menu-item-content .menu-item-content-header p {
+    color: var(--main-color) !important;
+}
+
+.menu .menu-container .menu-items .menu-item form input {
+    width: 50px;
+    background-color: #7272722b;
+}
+
+.menu .menu-container .menu-items .menu-item form button {
+    color: #fff;
+    background-color: var(--main-color);
+}

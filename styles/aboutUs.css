@@ -1,0 +1,54 @@
+:root {
+    --main-color: #35b8be;
+    --light-main-color: #f5fbfc;
+    --heading: #191b22;
+    --Paragraph: #546285;
+}
+
+body {
+    background: url(../images/hero1st.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(50%);
+}
+
+.hero {
+    min-height: 420px;
+    background: url(https://uploads-ssl.webflow.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum.png);
+    background-color: var(--light-main-color);
+}
+
+.hero .hero-content {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.hero .hero-content h1 {
+    max-width: 700px;
+    font-size: 60px;
+}
+
+.hero .hero-content h1 span {
+    color: var(--main-color) !important;
+}
+
+.cards .cards-container {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.cards .cards-container .card h2 {
+    font-size: 80px;
+    color: #fff !important;
+}
+
+.cards .cards-container .card img {
+    width: 100%;
+}
+
+.cards .cards-container .card p {
+    font-size: 25px;
+    color: #fff !important;
+}

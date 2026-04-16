@@ -1,0 +1,99 @@
+:root {
+    --main-color: #35b8be;
+    --light-main-color: #f5fbfc;
+    --heading: #191b22;
+    --Paragraph: #546285;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--light-main-color);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0 !important;
+    font-family: "Inter", sans-serif !important;
+    color: var(--heading) !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+    font-family: "Inter", sans-serif !important;
+    color: var(--Paragraph) !important;
+}
+
+.cart {
+    width: 55px;
+    height: 55px;
+    background-color: var(--main-color);
+}
+
+.cart span {
+    width: 25px;
+    height: 25px;
+    color: var(--main-color);
+}
+
+footer {
+    background-color: var(--light-main-color);
+}
+
+.footer-container {
+    max-width: 1320px;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+}
+
+.socials a i {
+    color: var(--Paragraph);
+}
+
+.active {
+    color: var(--main-color) !important;
+}
+
+.active-section {
+    color: #fff !important;
+    background-color: var(--main-color) !important;
+}
+
+@media (max-width: 575px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-container-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 15px;
+    }
+}

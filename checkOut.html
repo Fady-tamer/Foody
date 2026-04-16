@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semi final project - check out page</title>
+
+    <!-- website icon -->
+    <link rel="icon" type="image/png" href="./images/icon.png">
+
+    <!-- bootstrap 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- external font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontAwesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- enteral css -->
+    <link rel="stylesheet" href="./styles/checkOut.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container py-3">
+            <a class="navbar-brand" href="./index.html">
+                <img src="https://cdn.prod.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa341ab76b5e7_Logo.svg"
+                    alt="logo" width="50">
+            </a>
+            <div class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-medium" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="aboutUs.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="checkOut.html"
+                    class="cart mx-1 position-relative d-flex justify-content-center align-items-center rounded-1 text-decoration-none">
+                    <span
+                        class="position-absolute top-0 start-100 fw-bold text-center translate-middle rounded-circle bg-light">3</span>
+                    <i class="fa-solid fa-cart-shopping text-light"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="main-content col-12 p-5 d-flex justify-content-center align-items-center">
+        <div class="content d-flex flex-sm-column flex-lg-row justify-content-evenly">
+            <div class="table-content mb-sm-4 d-flex flex-column">
+                <table class="placeOrder">
+                    <thead class="border">
+                        <tr>
+                            <th class="px-3 py-2 bg-white">Order Summary</th>
+                            <th class="px-3 py-2 bg-white"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="border bg-white">
+                        <tr>
+                            <td class="px-3 pt-3">Subtotal</td>
+                            <td class="px-3 pt-3">$ 60.00 usd</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3">vat</td>
+                            <td class="px-3">$ 5.00 usd</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 pb-3 fw-bold">Total</td>
+                            <td class="px-3 pb-3 fw-bold">$ 65.00 usd</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="table-btn mt-3 px-3 py-2 border-0 rounded">Add items</button>
+                <button class="table-btn mt-3 px-3 py-2 border-0 rounded">Place an Order</button>
+            </div>
+            <div class="cart-items">
+                <table>
+                    <thead class="border w-100">
+                        <tr>
+                            <th class="px-3 py-2 bg-white">Items in order</th>
+                            <th class="px-3 py-2 bg-white"></th>
+                            <th class="px-3 py-2 bg-white"></th>
+                            <th class="px-3 py-2 bg-white"></th>
+                            <th class="px-3 py-2 bg-white"></th>
+                            <th class="px-3 py-2 bg-white"></th>
+                            <th class="px-3 py-2 bg-white"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="border bg-white">
+                        <tr>
+                            <td class="px-3 py-3 d-flex align-items-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Gjf6iILZ5eUsVJZ4Q2FvjymhDUibOKWgQa7gZRZ9PA&s=10"
+                                    alt="cart item" width="50">
+                                <div class="item-meta ms-3">
+                                    <h2 class="fw-bold text-nowrap">Classic Burger</h2>
+                                    <p>Quantity: 3</p>
+                                </div>
+                            </td>
+                            <td class="px-3 pt-3"></td>
+                            <td class="px-3 pt-3"></td>
+                            <td class="px-3 pt-3"></td>
+                            <td class="px-3 pt-3"></td>
+                            <td class="px-3 pt-3"></td>
+                            <td class="px-3 pt-3 fw-bold text-nowrap">$ 20.00 usd</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form action="" class="mt-3 border">
+                    <div
+                        class="form-header p-2 bg-white border-bottom d-flex justify-content-between align-items-center">
+                        <h2 class="fw-bold">Customer info</h2>
+                        <p class="text-danger">* Required</p>
+                    </div>
+                    <div class="form-group p-2 bg-white border-top-0 d-flex flex-column">
+                        <label for="email" class="fw-bold">Email *</label>
+                        <input type="text" id="email" class="mt-1 border bg-light">
+                    </div>
+                </form>
+                <form action="" class="mt-3 border">
+                    <div
+                        class="form-header p-2 bg-white border-bottom d-flex justify-content-between align-items-center">
+                        <h2 class="fw-bold">Order Address</h2>
+                        <p class="text-danger">* Required</p>
+                    </div>
+                    <div class="form-group p-2 bg-white border-top-0 d-flex flex-column">
+                        <label for="fullName" class="fw-bold">Full Name *</label>
+                        <input type="text" id="fullName" class="mt-1 border bg-light">
+                    </div>
+                    <div class="form-group p-2 bg-white border-top-0 d-flex flex-column">
+                        <label for="streetAddress" class="fw-bold">Street Address *</label>
+                        <input type="text" id="streetAddress" class="mt-1 border bg-light">
+                    </div>
+                    <div class="d-md-flex">
+                        <div class="form-group flex-grow-1 p-2 bg-white border-top-0 d-flex flex-column">
+                            <label for="city" class="fw-bold">City *</label>
+                            <input type="text" id="city" class="mt-1 border bg-light">
+                        </div>
+                        <div class="form-group flex-grow-1 p-2 bg-white border-top-0 d-flex flex-column">
+                            <label for="state" class="fw-bold">State/Province *</label>
+                            <input type="text" id="state" class="mt-1 border bg-light">
+                        </div>
+                        <div class="form-group flex-grow-1 p-2 bg-white border-top-0 d-flex flex-column">
+                            <label for="postalCode" class="fw-bold">Zip/Postal Code *</label>
+                            <input type="text" id="postalCode" class="mt-1 border bg-light">
+                        </div>
+                    </div>
+                    <div class="form-group p-2 bg-white border-top-0 d-flex flex-column">
+                        <label for="streetAddress" class="fw-bold">Street Address *</label>
+                        <input type="text" id="streetAddress" class="mt-1 border bg-light">
+                    </div>
+                </form>
+                <form action="" class="mt-3 border">
+                    <div
+                        class="form-header p-2 bg-white border-bottom d-flex justify-content-between align-items-center">
+                        <h2 class="fw-bold">Payment info</h2>
+                        <p class="text-danger">* Required</p>
+                    </div>
+                    <div class="form-group p-2 bg-white border-top-0 d-flex flex-column">
+                        <label for="cardNumber" class="fw-bold">card number *</label>
+                        <input type="text" id="cardNumber" class="mt-1 border bg-light">
+                    </div>
+                    <div class="d-flex">
+                        <div class="form-group flex-grow-1 p-2 bg-white border-top-0 d-flex flex-column">
+                            <label for="expirationDate" class="fw-bold">Expiration Date *</label>
+                            <input type="text" id="expirationDate" class="mt-1 border bg-light">
+                        </div>
+                        <div class="form-group flex-grow-1 p-2 bg-white border-top-0 d-flex flex-column">
+                            <label for="securityCode" class="fw-bold">Security Code *</label>
+                            <input type="text" id="securityCode" class="mt-1 border bg-light">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-center align-items-center">
+        <div class="footer-container col-12 p-5 d-flex justify-content-center align-items-center">
+            <div class="footer-container-left col-6">
+                <img src="https://cdn.prod.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa341ab76b5e7_Logo.svg"
+                    alt="logo" width="50">
+                <p class="col-sm-10 col-lg-6 my-4">Takeaway & Delivery template for small - medium businesses.</p>
+                <div class="socials col-sm-10 col-lg-6 d-flex justify-content-evenly">
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-container-right col-6 d-flex justify-content-evenly">
+                <div class="navigators">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-medium" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="aboutUs.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigators">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-medium" href="#">License</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="#">Changelog</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="#">Style Guide</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

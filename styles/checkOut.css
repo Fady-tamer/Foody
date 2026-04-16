@@ -1,0 +1,47 @@
+:root {
+    --main-color: #35b8be;
+    --light-main-color: #f5fbfc;
+    --heading: #191b22;
+    --Paragraph: #546285;
+}
+
+body {
+    background-color: var(--light-main-color);
+}
+
+nav {
+    background-color: #fff;
+}
+
+.content {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.table-btn {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.item-meta h2 {
+    font-size: 15px;
+}
+
+.item-meta p {
+    font-size: 15px;
+}
+
+.form-header h2 {
+    font-size: 15px;
+}
+
+.form-header p {
+    font-size: 15px;
+}
+
+@media (max-width: 575px) {
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

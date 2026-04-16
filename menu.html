@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semi final project - menu page</title>
+
+    <!-- website icon -->
+    <link rel="icon" type="image/png" href="./images/icon.png">
+
+    <!-- bootstrap 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- external font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontAwesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- enteral css -->
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container py-3">
+            <a class="navbar-brand" href="./index.html">
+                <img src="https://cdn.prod.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa341ab76b5e7_Logo.svg"
+                    alt="logo" width="50">
+            </a>
+            <div class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-medium" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link active" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="aboutUs.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="checkOut.html"
+                    class="cart mx-1 position-relative d-flex justify-content-center align-items-center rounded-1 text-decoration-none">
+                    <span
+                        class="position-absolute top-0 start-100 fw-bold text-center translate-middle rounded-circle bg-light">3</span>
+                    <i class="fa-solid fa-cart-shopping text-light"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero d-flex justify-content-center align-items-center">
+        <div class="hero-content">
+            <h1 class="text-center m-auto">Get your food
+                <span> delivered</span>, or <span>pick-up</span>
+                in store.
+            </h1>
+        </div>
+    </section>
+    <section class="menu col-12 p-5 d-flex justify-content-center align-items-center">
+        <div class="menu-container col-12 d-flex flex-column justify-content-center align-items-center">
+            <div class="menu-header col-12 d-flex flex-column justify-content-center">
+                <h2 class="my-4 text-center">Browse our menu</h2>
+                <div class="menu-sections col-sm-10 col-lg-6 m-auto d-flex justify-content-center align-items-center">
+                    <button class="mx-3 py-2 px-3 rounded active-section">Full menu</button>
+                    <button class="mx-3 py-2 px-3 rounded">Burgers</button>
+                    <button class="mx-3 py-2 px-3 rounded">Sides</button>
+                    <button class="mx-3 py-2 px-3 rounded">Drinks</button>
+                </div>
+            </div>
+            <div class="menu-items col-12 mt-5 d-flex flex-wrap justify-content-center align-items-center">
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3676276b5cd_Burger%2003.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Burger Dreams</h2>
+                            <p class="fw-bold">$9.8</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3b2e676b5b5_Burger%2008.png "
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Burger Waldo</h2>
+                            <p class="fw-bold">$10</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3650476b5b3_Burger%2006.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Burger Bacon Buddy</h2>
+                            <p class="fw-bold">$10</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa33f0276b5b2_Burger%2002.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Burger Spicy</h2>
+                            <p class="fw-bold">$9.2</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Gjf6iILZ5eUsVJZ4Q2FvjymhDUibOKWgQa7gZRZ9PA&s=10"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Classic Burger</h2>
+                            <p class="fw-bold">$8</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa36d8576b5b4_Burger%2004.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Burger Cali</h2>
+                            <p class="fw-bold">$8</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa30d7276b5ac_Side%2006.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Ceaser Salad</h2>
+                            <p class="fw-bold">$6</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa33ebb76b5f5_Side%2003.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Fries Rustic</h2>
+                            <p class="fw-bold">$4</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3145f76b5ad_Drink%203.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Cola</h2>
+                            <p class="fw-bold">$3</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+                <div
+                    class="menu-item col-sm-12 col-lg-5 m-2 px-3 py-4 rounded d-flex flex-sm-column flex-md-row align-items-center shadow">
+                    <img src="https://cdn.prod.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3f65176b5ae_Drink%204.png"
+                        alt="food" class="rounded">
+                    <div class="menu-item-content ms-4 d-flex flex-column justify-content-between">
+                        <div
+                            class="menu-item-content-header my-sm-3 my-md-0 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-bold">Lime</h2>
+                            <p class="fw-bold">$4</p>
+                        </div>
+                        <p class="my-3 my-md-1">Lorem ipsum amet consectetur adipisicing elit. Voluptatum, similique.
+                            Animi, eum.
+                        </p>
+                        <form class="d-flex justify-content-between">
+                            <input type="number" min="1" value="1" name="" id="" class="px-2 rounded-3 border-0">
+                            <button type="submit" class="border-0 rounded px-3 py-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-center align-items-center">
+        <div class="footer-container col-12 p-5 d-flex justify-content-center align-items-center">
+            <div class="footer-container-left col-6">
+                <img src="https://cdn.prod.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa341ab76b5e7_Logo.svg"
+                    alt="logo" width="50">
+                <p class="col-sm-10 col-lg-6 my-4">Takeaway & Delivery template for small - medium businesses.</p>
+                <div class="socials col-sm-10 col-lg-6 d-flex justify-content-evenly">
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href=""
+                        class="p-2 d-flex justify-content-center align-items-center rounded-circle border border-1 text-decoration-none"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-container-right col-6 d-flex justify-content-evenly">
+                <div class="navigators">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-medium" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium active">
+                            <a class="nav-link" href="">Menu</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigators">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-medium" href="">License</a>
+                        </li>
+                        <li class="nav-item mx-3 fw-medium">
+                            <a class="nav-link" href="">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
