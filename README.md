@@ -1,4 +1,4 @@
-# 🍔 Foody
+# 🍔 Point restaurant 
 
 Foody is a static front-end web application designed for a restaurant or food delivery service. It features a clean, user-friendly interface that allows users to browse menus, view specific items, learn about the restaurant, and proceed to checkout.
 
