@@ -39,6 +39,10 @@ nav {
     font-size: 15px;
 }
 
+.cart-item-header p {
+    color: var(--heading) !important;
+}
+
 @media (max-width: 575px) {
     .content {
         flex-direction: column;
